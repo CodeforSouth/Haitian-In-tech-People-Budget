@@ -1,9 +1,10 @@
 import './App.css';
+import RouterComponent from "./routes/Router";
 
 function App() {
   return (
     <div className="App">
-      <h1>HIT PB App</h1>
+      <RouterComponent />
     </div>
   );
 }
