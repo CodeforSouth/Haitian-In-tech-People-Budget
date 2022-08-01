@@ -1,16 +1,17 @@
 import React from 'react';
+import './About.css';
 import NavBar2 from "../../components/NavBar2/Navbar2";
-import Body2 from "../../components/Body2/Body2";
 import Footer2 from "../../components/Footer2/Footer2";
+import AboutBody from "../../components/AboutBody/AboutBody";
 
-const Home2 = () => {
+const About = () => {
     return (
         <div>
-            <NavBar2 page="Home"/>
-            <Body2 />
+            <NavBar2 page="About"/>
+            <AboutBody />
             <Footer2 />
         </div>
     );
 };
 
-export default Home2;
+export default About;
